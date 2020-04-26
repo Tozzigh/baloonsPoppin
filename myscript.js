@@ -12,3 +12,5 @@ function countFun(){
     }   
     count-=1;
 }
+
+document.getElementsByClassName('baloo').src = 'icons8-party-balloon-104.png';
