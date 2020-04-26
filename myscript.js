@@ -13,4 +13,23 @@ function countFun(){
     count-=1;
 }
 
-document.getElementsByClassName('baloo').src = 'icons8-party-balloon-104.png';
+document.getElementById("1").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("2").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("3").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("4").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("5").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("6").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("7").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("8").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("9").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("10").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("11").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("12").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("13").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("14").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("15").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("16").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("17").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("18").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("19").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
+document.getElementById("20").src = 'icons8-party-balloon-10'+(Math.floor((Math.random() * 4) + 1)).toString()+'.png';
