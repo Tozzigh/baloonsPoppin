@@ -4,5 +4,3 @@ function countFun(){
     document.getElementById("showCount").innerHTML=count +" remaining";
     
 }
-var resetBtn = document.getElementById("reset");
-    resetBtn.disabled = "disabled"
