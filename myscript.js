@@ -1,5 +1,14 @@
-var count=0;
-function countFun(){
-    count+=1;
-    document.getElementById("showCount").innerHTML=count +" popped";
+var count=19;
+var baloons=" baloons!!!";
+
+function countFun(){    
+    document.getElementById("showCount").innerHTML="Pop all the "+count+baloons;
+    if(count == 0){
+        document.getElementById("showCount").innerHTML= "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!";
+        location.reload();
+    }
+    if(count == 1){
+        document.getElementById("showCount").innerHTML= "Pop the last baloon!!!";
+    }   
+    count-=1;
 }
